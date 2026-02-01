@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Komet Study Abroad | Study Abroad Consultants",
     description:
       "Komet Study Abroad helps students make confident study abroad decisions. Expert counselling, university applications, visa support, and test preparation.",
-    images: [{ url: META_IMAGE, width: 1200, height: 630, alt: "Komet Study Abroad" }],
+    images: [{ url: META_IMAGE, width: 500, height: 500, alt: "Komet Study Abroad" }],
   },
   twitter: {
     card: "summary_large_image",
