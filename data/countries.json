@@ -1,0 +1,318 @@
+[
+  {
+    "country": "United Kingdom",
+    "slug": "uk",
+    "title": "Study Abroad in UK",
+    "subtitle": "UK is a great place to study abroad. It has a lot of universities and colleges that are world-renowned.",
+    "coverImage": "/Images/uk/uk.jpg",
+    "para1": "Studying in the United Kingdom means learning from some of the world’s oldest and most prestigious universities while accelerating your career timeline. The UK is known for its academically rigorous programs, globally respected degrees, and strong industry connections across fields like business, engineering, healthcare, finance, and technology.",
+    "para2": "From historic campuses to cutting-edge research facilities, the UK offers a balanced academic and professional environment—making it a smart choice for students who want global recognition, faster outcomes, and long-term career growth.",
+    "universities": [
+      {
+    
+        "title": "University of Oxford"
+       
+      },
+      {
+    
+       
+        "title": "University of Cambridge"
+        
+      },
+      {
+      
+        "title": "Imperial College London"
+    
+      },
+      {
+        "title": "University College London (UCL)"
+      },
+      {
+       
+        "title": "The University of Edinburgh"
+      },
+      {
+      
+        "title": "The University of Manchester"
+      },
+      {
+      
+        "title": "King's College London"
+      },
+      {
+     
+        "title": "London School of Economics and Political Science (LSE)"
+      },
+      {
+        
+        "title": "University of Bristol"
+      },
+      {
+      
+        "title": "The University of Warwick"
+      }
+    ],
+    "reasons": [
+      "Globally recognised universities and degrees",
+      "Shorter course duration with faster ROI",
+      "Strong graduate employability worldwide",
+      "Post-study work opportunities through the Graduate Route",
+      "Wide range of scholarships and funding options"
+    ]
+  },
+    {
+      "country": "Australia",
+      "slug": "australia",
+      "title": "Study Abroad in Australia",
+      "subtitle": "Australia offers globally recognised education, strong work rights, and a high quality of student life.",
+      "coverImage": "/Images/uk/aus.png",
+      "para1": "Studying in Australia gives students access to world-class universities known for cutting-edge research, academic excellence, and strong industry collaboration. Australian institutions are highly respected across fields such as engineering, business, healthcare, data science, and environmental studies, offering globally recognised degrees with practical learning outcomes.",
+      "para2": "With a welcoming multicultural environment, excellent part-time work rights, and generous post-study work options, Australia provides a balanced academic and lifestyle experience. Its strong economy, high quality of life, and focus on employability make it an ideal destination for students seeking global exposure and career-driven education.",
+      "universities": [
+        { "title": "University of Melbourne" },
+        { "title": "Australian National University (ANU)" },
+        { "title": "University of Sydney" },
+        { "title": "University of New South Wales (UNSW Sydney)" },
+        { "title": "Monash University" },
+        { "title": "University of Queensland" },
+        { "title": "University of Western Australia" },
+        { "title": "University of Adelaide" },
+        { "title": "UNSW Canberra" },
+        { "title": "Griffith University" }
+      ],
+      "reasons": [
+        "Globally recognised universities and qualifications",
+        "Excellent part-time work and post-study work rights",
+        "Strong industry-focused education and research",
+        "High quality of life and student-friendly cities",
+        "Diverse, multicultural learning environment"
+      ]
+    },
+    {
+      "country": "Canada",
+      "slug": "canada",
+      "title": "Study Abroad in Canada",
+      "subtitle": "Canada combines quality education with strong career opportunities and PR-friendly pathways.",
+      "coverImage": "/Images/uk/canada.png",
+      "para1": "Studying in Canada offers students access to internationally respected universities, industry-aligned programs, and a dynamic job market. Canadian institutions are known for their strong focus on research, innovation, and practical learning across fields like technology, engineering, healthcare, finance, and management.",
+      "para2": "Beyond academics, Canada stands out for its welcoming society, safe living conditions, and clear post-study pathways to permanent residency. With a strong economy, multicultural cities, and student-friendly immigration policies, Canada is an excellent choice for students seeking long-term career growth and global settlement opportunities.",
+      "universities": [
+        { "title": "University of Toronto" },
+        { "title": "McGill University" },
+        { "title": "University of British Columbia" },
+        { "title": "University of Alberta" },
+        { "title": "University of Waterloo" },
+        { "title": "Western University" },
+        { "title": "Université de Montréal" },
+        { "title": "University of Calgary" },
+        { "title": "McMaster University" },
+        { "title": "University of Ottawa" }
+      ],
+      "reasons": [
+        "Globally recognised education system",
+        "PR-friendly post-study pathways",
+        "Strong job market across key industries",
+        "Safe, inclusive, and multicultural society",
+        "Excellent quality of life for international students"
+      ]
+    },
+      {
+        "country": "Germany",
+        "slug": "germany",
+        "title": "Study Abroad in Germany",
+        "subtitle": "Germany offers affordable education with global leadership in engineering and technology.",
+        "coverImage": "/Images/uk/germany.png",
+        "para1": "Studying in Germany gives students access to a world-renowned education system focused on engineering, technology, and scientific research. German universities are globally respected for their strong academic standards, practical learning approach, and close collaboration with leading industries in fields such as automotive, manufacturing, AI, and renewable energy.",
+        "para2": "With minimal or no tuition fees at public universities, Germany has become an increasingly attractive destination for international students. Combined with excellent research facilities, strong job prospects, and exposure to Europe’s largest economy, Germany offers exceptional value for students seeking high-quality education with long-term career growth.",
+        "universities": [
+          { "title": "Technical University of Munich (TUM)" },
+          { "title": "Ludwig-Maximilians-Universität München (LMU Munich)" },
+          { "title": "Heidelberg University" },
+          { "title": "Humboldt University of Berlin" },
+          { "title": "Free University of Berlin" },
+          { "title": "RWTH Aachen University" },
+          { "title": "University of Freiburg" },
+          { "title": "University of Göttingen" },
+          { "title": "Technical University of Berlin" },
+          { "title": "University of Bonn" }
+        ],
+        "reasons": [
+          "Minimal or no tuition fees at public universities",
+          "Global leadership in engineering and STEM fields",
+          "Strong research and industry exposure",
+          "High employability in Europe’s largest economy",
+          "Excellent infrastructure and academic facilities"
+        ]
+      },
+      {
+        "country": "Ireland",
+        "slug": "ireland",
+        "title": "Study Abroad in Ireland",
+        "subtitle": "Ireland combines English-taught education with strong growth in tech and finance sectors.",
+        "coverImage": "/Images/uk/ire.png",
+        "para1": "Studying in Ireland offers students access to high-quality education delivered in English, along with strong academic and industry integration. Irish universities are well known for programs in technology, business, data science, pharmaceuticals, and finance, supported by global companies that have established European headquarters in the country.",
+        "para2": "With a rapidly growing economy, generous post-study work options, and a welcoming international environment, Ireland provides excellent career opportunities for graduates. Its compact size, strong industry presence, and student-friendly policies make it an ideal destination for those seeking global exposure and long-term professional growth.",
+        "universities": [
+          { "title": "Trinity College Dublin" },
+          { "title": "University College Dublin (UCD)" },
+          { "title": "University College Cork (UCC)" },
+          { "title": "Dublin City University (DCU)" },
+          { "title": "Maynooth University" },
+          { "title": "Technological University Dublin (TU Dublin)" },
+          { "title": "National University of Ireland Galway (NUIG)" },
+          { "title": "University of Limerick" },
+          { "title": "Royal College of Surgeons in Ireland" },
+          { "title": "Griffith College Dublin" }
+        ],
+        "reasons": [
+          "English-taught degrees across major disciplines",
+          "Strong presence of global tech and finance firms",
+          "Favorable post-study work opportunities",
+          "High graduate employability in Europe",
+          "Safe, welcoming, and student-friendly environment"
+        ]
+      },
+      {
+        "country": "France",
+        "slug": "france",
+        "title": "Study Abroad in France",
+        "subtitle": "France offers affordable education with growing global recognition across diverse fields.",
+        "coverImage": "/Images/uk/france.png",
+        "para1": "Studying in France allows students to benefit from a highly respected public education system combined with world-class institutions in business, arts, science, and innovation. French universities have significantly improved their global rankings, with institutions like Paris-Saclay and PSL gaining international academic recognition.",
+        "para2": "With affordable tuition fees at public universities, strong research infrastructure, and vibrant cultural exposure, France provides a unique academic experience. Its growing focus on innovation, entrepreneurship, and global collaboration makes it an attractive destination for students seeking quality education with international career prospects.",
+        "universities": [
+          { "title": "Sorbonne University" },
+          { "title": "Paris-Saclay University" },
+          { "title": "PSL Research University" },
+          { "title": "École Normale Supérieure (ENS Paris)" },
+          { "title": "Sciences Po" },
+          { "title": "University of Paris" },
+          { "title": "Grenoble Alpes University" },
+          { "title": "Aix-Marseille University" },
+          { "title": "University of Strasbourg" },
+          { "title": "Toulouse School of Economics" }
+        ],
+        "reasons": [
+          "Affordable public university tuition fees",
+          "Strong global reputation in business and arts",
+          "Rapidly improving international rankings",
+          "Innovation and research-driven education",
+          "Rich cultural and academic environment"
+        ]
+      },
+        {
+          "country": "Italy",
+          "slug": "italy",
+          "title": "Study Abroad in Italy",
+          "subtitle": "Italy blends rich academic heritage with affordable education and generous scholarships.",
+          "coverImage": "/Images/uk/italy.png",
+          "para1": "Studying in Italy offers students the opportunity to learn within one of Europe’s oldest and most influential education systems. Italian universities are well respected for programs in design, architecture, business, engineering, humanities, and arts, combining strong theoretical foundations with growing international exposure.",
+          "para2": "With affordable tuition fees, government-funded scholarships, and an unmatched cultural experience, Italy has become an attractive destination for international students. Its increasing number of English-taught programs and global academic partnerships make Italy a compelling choice for students seeking quality education enriched by history and innovation.",
+          "universities": [
+            { "title": "University of Bologna" },
+            { "title": "Sapienza University of Rome" },
+            { "title": "Politecnico di Milano" },
+            { "title": "University of Padua" },
+            { "title": "Bocconi University" },
+            { "title": "Polytechnic University of Turin" },
+            { "title": "University of Milan" },
+            { "title": "University of Florence" },
+            { "title": "Ca’ Foscari University of Venice" },
+            { "title": "University of Siena" }
+          ],
+          "reasons": [
+            "Affordable education at public universities",
+            "Wide availability of scholarships",
+            "Strong programs in design, arts, and business",
+            "Growing number of English-taught courses",
+            "Rich cultural and academic heritage"
+          ]
+        },
+        {
+          "country": "New Zealand",
+          "slug": "new-zealand",
+          "title": "Study Abroad in New Zealand",
+          "subtitle": "New Zealand offers high-quality education in a safe and balanced living environment.",
+          "coverImage": "/Images/uk/nzl.png",
+          "para1": "Studying in New Zealand provides students access to a globally respected education system known for academic excellence, research-driven learning, and practical outcomes. Universities in New Zealand offer strong programs across science, engineering, business, healthcare, and environmental studies, supported by modern teaching methods.",
+          "para2": "Renowned for its safety, inclusivity, and quality of life, New Zealand also offers attractive post-study work rights for international graduates. Its welcoming culture, student-friendly policies, and focus on work-life balance make it an ideal destination for students seeking both academic success and personal well-being.",
+          "universities": [
+            { "title": "University of Auckland" },
+            { "title": "University of Otago" },
+            { "title": "Victoria University of Wellington" },
+            { "title": "University of Canterbury" },
+            { "title": "Massey University" },
+            { "title": "Auckland University of Technology" },
+            { "title": "Lincoln University" },
+            { "title": "University of Waikato" },
+            { "title": "AUT South Campus" },
+            { "title": "Southern Institute of Technology (SIT)" }
+          ],
+          "reasons": [
+            "Globally recognised education system",
+            "Strong post-study work opportunities",
+            "Safe, inclusive, and student-friendly society",
+            "High quality of life and balanced lifestyle",
+            "Research-focused and practical learning approach"
+          ]
+        },
+        {
+          "country": "Dubai",
+          "slug": "dubai",
+          "title": "Study Abroad in Dubai",
+          "subtitle": "Dubai offers global university campuses with strong industry exposure close to home.",
+          "coverImage": "/Images/uk/dubai.png",
+          "para1": "Studying in Dubai allows students to earn internationally recognised degrees through branch campuses of leading global universities. Dubai’s education ecosystem is closely integrated with industry, offering programs in business, engineering, technology, hospitality, and management with a strong focus on practical learning.",
+          "para2": "With its proximity to India, modern infrastructure, and rapidly growing economy, Dubai provides excellent opportunities for internships and industry exposure. Its multicultural environment and global business presence make it an attractive destination for students seeking international education without relocating far from home.",
+          "universities": [
+            { "title": "University of Dubai" },
+            { "title": "American University in Dubai" },
+            { "title": "Canadian University Dubai" },
+            { "title": "University of Wollongong in Dubai" },
+            { "title": "Rochester Institute of Technology Dubai" },
+            { "title": "Middlesex University Dubai" },
+            { "title": "Amity University Dubai" },
+            { "title": "Hult International Business School (Dubai Campus)" },
+            { "title": "Murdoch University Dubai" },
+            { "title": "Heriot-Watt University Dubai" }
+          ],
+          "reasons": [
+            "Globally recognised degrees near home",
+            "Strong internship and industry exposure",
+            "Modern campuses and infrastructure",
+            "Multicultural learning environment",
+            "Fast-growing regional business hub"
+          ]
+        },
+        {
+          "country": "South Korea",
+          "slug": "south-korea",
+          "title": "Study Abroad in South Korea",
+          "subtitle": "South Korea is a leading destination for innovation, technology, and global research.",
+          "coverImage": "/Images/uk/sk.png",
+          "para1": "Studying in South Korea gives students access to one of Asia’s most advanced education systems, particularly strong in engineering, technology, and scientific research. Korean universities are globally recognised for innovation-driven programs and strong collaboration with leading global companies.",
+          "para2": "With increasing availability of English-taught postgraduate programs, modern campuses, and strong government support for research, South Korea is gaining popularity among international students. Its blend of academic excellence, technological advancement, and global exposure makes it an ideal destination for future-focused education.",
+          "universities": [
+            { "title": "Seoul National University (SNU)" },
+            { "title": "Korea Advanced Institute of Science and Technology (KAIST)" },
+            { "title": "Korea University" },
+            { "title": "Yonsei University" },
+            { "title": "Pohang University of Science and Technology (POSTECH)" },
+            { "title": "Hanyang University" },
+            { "title": "Sungkyunkwan University" },
+            { "title": "Ewha Womans University" },
+            { "title": "Kyung Hee University" },
+            { "title": "Sogang University" }
+          ],
+          "reasons": [
+            "Innovation-led education and research",
+            "Strong focus on engineering and technology",
+            "Rising global university rankings",
+            "English-taught postgraduate programs",
+            "Advanced infrastructure and tech ecosystem"
+          ]
+        }
+            
+    
+    
+]

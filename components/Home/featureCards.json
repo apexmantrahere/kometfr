@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "/Images/video1.mp4",
+    "mediaType": "video",
+    "title": "99% Visa Success Rate",
+    "description": "Built on accuracy, ethics & experience"
+  },
+  {
+    "id": 2,
+    "image": "/Images/countries.jpg",
+    "mediaType": "image",
+    "title": "10+ Study Destinations",
+    "description": "UK, Australia, Canada, Germany & more"
+  },
+  {
+    "id": 3,
+    "image": "/Images/video3.mp4",
+    "mediaType": "video",
+    "title": "Student-Centric Counselling",
+    "description": "We recommend what's right, not what's easy"
+  },
+  {
+    "id": 4,
+    "image": "/Images/video4.mp4",
+    "mediaType": "video",
+    "title": "Transparent Process",
+    "description": "Clear costs, clear timelines, clear expectations"
+  },
+  {
+    "id": 5,
+    "image": "/Images/video5.mp4",
+    "mediaType": "video",
+    "title": "End-to-End Support",
+    "description": "From first counselling call to post-arrival guidance"
+  }
+]

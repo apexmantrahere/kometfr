@@ -1,0 +1,124 @@
+[
+  {
+    "title": "IELTS Coaching",
+    "slug": "ielts",
+    "subtitle": "IELTS Coaching That Improves Bands — Not Just Practice Hours",
+    "image": "/Images/ielts.png",
+    "leftImage": "/Images/ielts.png",
+    "description": "At Komet Study Abroad, IELTS training is designed around exam strategy, accuracy, and confidence. Whether Academic or General, we focus on the exact skills examiners look for.",
+    "whyChoose": [
+      "Academic & General modules",
+      "Small batches for personal attention",
+      "Speaking & writing correction by experts",
+      "Regular mock tests with band analysis"
+    ],
+    "whoIsThisFor": [
+      "Students planning to study abroad",
+      "Professionals migrating or applying for PR",
+      "Candidates stuck at the same band score"
+    ],
+    "trainingIncludes": [
+      "Listening strategies & traps",
+      "Writing task frameworks (Task 1 & 2)",
+      "Speaking fluency & confidence building",
+      "Reading time-management techniques"
+    ],
+    "cta": "Book a Free IELTS Assessment"
+  },
+  {
+    "title": "PTE Coaching",
+    "slug": "pte",
+    "subtitle": "Smart PTE Coaching — Built for AI Scoring Systems",
+    "image": "/Images/pte.png",
+    "leftImage": "/Images/pte.png",
+    "description": "PTE is not about English alone — it’s about understanding how AI evaluates you. Our coaching focuses on templates, timing, and scoring logic.",
+    "whyChoose": [
+      "AI-based practice methods",
+      "Score-boosting templates",
+      "Fast-track & regular batches",
+      "One-on-one speaking evaluation"
+    ],
+    "whoIsThisFor": [
+      "Students needing quick results",
+      "Repeat test takers",
+      "Candidates aiming for 65+ / 79+ scores"
+    ],
+    "trainingIncludes": [
+      "Speaking & repeat sentence mastery",
+      "Writing templates that score",
+      "Listening accuracy drills",
+      "Real exam simulations"
+    ],
+    "cta": "Check Your PTE Score Potential"
+  },
+  {
+    "title": "OET Coaching",
+    "slug": "oet",
+    "subtitle": "OET Coaching for Healthcare Professionals Only",
+    "image": "/Images/oet.png",
+    "leftImage": "/Images/oet.png",
+    "description": "Our OET training is strictly designed for doctors, nurses, dentists, and allied healthcare professionals.",
+    "whyChoose": [
+      "Profession-specific modules",
+      "Case-based speaking role plays",
+      "Letter writing correction by experts",
+      "High success rate for UK & Australia"
+    ],
+    "whoIsThisFor": [
+      "Doctors, nurses & healthcare workers",
+      "Candidates targeting UK, Ireland & Australia"
+    ],
+    "trainingIncludes": [
+      "Speaking role-play simulations",
+      "Writing referral & discharge letters",
+      "Listening & reading exam techniques",
+      "Individual feedback sessions"
+    ],
+    "cta": "Explore OET Training Options"
+  },
+  {
+    "title": "TOEFL Coaching",
+    "slug": "toefl",
+    "subtitle": "TOEFL Coaching for Global University Admissions",
+    "image": "/Images/toefl.png",
+    "leftImage": "/Images/toefl.png",
+    "description": "TOEFL requires strong integrated skills. Our coaching focuses on clarity, structure, and time control.",
+    "whyChoose": [
+      "Integrated speaking & writing practice",
+      "Section-wise time strategies",
+      "Academic vocabulary building",
+      "Mock tests with performance analysis"
+    ],
+    "whoIsThisFor": [
+      "Students applying to US & global universities",
+      "Candidates needing TOEFL over IELTS/PTE"
+    ],
+    "trainingIncludes": [
+      "Integrated task mastery",
+      "Note-taking techniques",
+      "Speaking clarity & structure",
+      "Full-length mock exams"
+    ],
+    "cta": "Check TOEFL Readiness"
+  },
+  {
+    "title": "Free Demo Class",
+    "slug": "demo",
+    "subtitle": "Experience Our Teaching Before You Enrol",
+    "image": "/Images/demo.png",
+    "leftImage": "/Images/demo.png",
+    "description": "We believe students should experience quality before committing. Our free demo class lets you understand our teaching style and evaluation process.",
+    "whyChoose": [
+      "Live classroom environment",
+      "Trainer interaction & feedback",
+      "Level assessment & improvement plan"
+    ],
+    "whoIsThisFor": [
+      "Confused about which test to choose",
+      "Want to evaluate teaching quality",
+      "First-time test takers"
+    ],
+    "trainingIncludes": [],
+    "cta": "Attend a Free Demo Class"
+  }
+]
