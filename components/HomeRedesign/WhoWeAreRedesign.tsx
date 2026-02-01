@@ -1,23 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { CheckCircle, X } from "phosphor-react";
+import { useContactForm } from "@/hooks/useContactForm";
 
 export default function WhoWeAreSection() {
-  const [formData, setFormData] = useState({
-    name: "",
-    contact: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Placeholder — wire to your backend/API
-  };
+  const { formData, handleChange, handleSubmit, status, showSuccessModal, setShowSuccessModal } = useContactForm();
 
   const panel = (
     <div className="flex flex-col md:flex-row items-center justify-center h-full w-full max-w-[1400px] mx-auto px-8 md:px-12">
@@ -129,11 +116,15 @@ export default function WhoWeAreSection() {
             </div>
           </div>
 
+          {status.type === "error" && (
+            <p className="text-sm text-red-600 mt-2 mb-2">{status.message}</p>
+          )}
           <button
             type="submit"
-            className="mt-6 w-full py-3.5 rounded-full bg-[#0d173f] font-secondary font-semibold text-[#FAF3e0] transition hover:bg-[#0d173f]/90 focus:ring-2 focus:ring-[#c44200] focus:ring-offset-2 focus:outline-none"
+            disabled={status.type === "loading"}
+            className="mt-6 w-full py-3.5 rounded-full bg-[#0d173f] font-secondary font-semibold text-[#FAF3e0] transition hover:bg-[#0d173f]/90 focus:ring-2 focus:ring-[#c44200] focus:ring-offset-2 focus:outline-none disabled:opacity-60"
           >
-            Get Free Advice
+            {status.type === "loading" ? "Sending..." : "Get Free Advice"}
           </button>
         </form>
       </div>
@@ -142,9 +133,38 @@ export default function WhoWeAreSection() {
 
   return (
     <div className="relative bg-white pt-20 pb-26">
-
-        {panel}
-     
+      {showSuccessModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/70" aria-hidden />
+          <div className="relative bg-white backdrop-blur-[10px] rounded-2xl shadow-2xl max-w-md w-full p-8 text-center">
+            <button
+              type="button"
+              onClick={() => setShowSuccessModal(false)}
+              className="absolute top-4 right-4 p-1 rounded-full hover:bg-gray-100 transition"
+              aria-label="Close"
+            >
+              <X size={24} className="text-[#0d173f]" weight="bold" />
+            </button>
+            <div className="flex justify-center mb-6">
+              <CheckCircle size={72} className="text-[#0d173f]" />
+            </div>
+            <h3 className="text-xl font-latin font-bold text-[#c44200] mb-3">
+              <strong>Thank you for trusting us</strong>
+            </h3>
+            <p className="text-[#434343] font-secondary leading-relaxed mb-6">
+              We&apos;ve received your message and will get back to you soon. Our team is here to help you with your study abroad journey.
+            </p>
+            <button
+              type="button"
+              onClick={() => setShowSuccessModal(false)}
+              className="w-full py-3 rounded-full bg-[#0d173f] font-secondary font-semibold text-[#FAF3e0] hover:bg-[#0d173f]/90 transition"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+      {panel}
     </div>
   );
 }

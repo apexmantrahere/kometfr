@@ -11,7 +11,7 @@ type CountryItem = {
   coverImage: string;
   para1: string;
   para2: string;
-  universities?: { src: string; alt: string; title?: string; tagline?: string }[];
+  universities?: { title?: string; src?: string; alt?: string; tagline?: string }[];
   reasons: string[];
 };
 
