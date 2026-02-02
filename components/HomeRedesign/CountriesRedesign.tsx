@@ -10,22 +10,22 @@ import { ArrowLeft, ArrowRight, ArrowUpRight } from "phosphor-react";
 interface Destination {
   id: number;
   name: string;
-  country: string;
+  slug: string;
   image: string;
   description: string;
 }
 
 const destinations: Destination[] = [
-  { id: 1, name: "UK", country: "UK", image: "/Images/UK.jpg", description: "1-year Master's, Graduate Route visa" },
-  { id: 2, name: "Australia", country: "Australia", image: "/Images/aus.jpg", description: "High employability & quality of life" },
-  { id: 3, name: "Canada", country: "Canada", image: "/Images/canada.jpg", description: "PR-friendly pathways" },
-  { id: 4, name: "Germany", country: "Germany", image: "/Images/germany.jpg", description: "Low or no tuition fees" },
-  { id: 5, name: "Ireland", country: "Ireland", image: "/Images/ire.jpg", description: "Strong tech & pharma job market" },
-  { id: 6, name: "France", country: "France", image: "/Images/france.jpg", description: "Business, fashion & hospitality excellence" },
-  { id: 7, name: "Italy", country: "Italy", image: "/Images/italy.jpg", description: "Affordable education & scholarships" },
-  { id: 8, name: "New Zealand", country: "New Zealand", image: "/Images/nzl.jpg", description: "Work-life balance & post-study work" },
-  { id: 9, name: "Dubai", country: "Dubai", image: "/Images/dubai.jpg", description: "International campuses & industry exposure" },
-  { id: 10, name: "South Korea", country: "South Korea", image: "/Images/southkorea.jpg", description: "Innovation-driven education & scholarships" },
+  { id: 1, name: "UK", slug: "uk", image: "/Images/UK.jpg", description: "1-year Master's, Graduate Route visa" },
+  { id: 2, name: "Australia", slug: "australia", image: "/Images/aus.jpg", description: "High employability & quality of life" },
+  { id: 3, name: "Canada", slug: "canada", image: "/Images/canada.jpg", description: "PR-friendly pathways" },
+  { id: 4, name: "Germany", slug: "germany", image: "/Images/germany.jpg", description: "Low or no tuition fees" },
+  { id: 5, name: "Ireland", slug: "ireland", image: "/Images/ire.jpg", description: "Strong tech & pharma job market" },
+  { id: 6, name: "France", slug: "france", image: "/Images/france.jpg", description: "Business, fashion & hospitality excellence" },
+  { id: 7, name: "Italy", slug: "italy", image: "/Images/italy.jpg", description: "Affordable education & scholarships" },
+  { id: 8, name: "New Zealand", slug: "new-zealand", image: "/Images/nzl.jpg", description: "Work-life balance & post-study work" },
+  { id: 9, name: "Dubai", slug: "dubai", image: "/Images/dubai.jpg", description: "International campuses & industry exposure" },
+  { id: 10, name: "South Korea", slug: "south-korea", image: "/Images/southkorea.jpg", description: "Innovation-driven education & scholarships" },
 ];
 
 export default function CountriesSwiper() {
@@ -191,9 +191,10 @@ export default function CountriesSwiper() {
                         fill  
                         className="object-cover rounded-[12px] shadow-[0px_0px_22px_12px_#FAF3e0]"   
                       /> 
-                      <Link 
-                        href='/' 
+                      <Link
+                        href={`/locations/${destination.slug}`}
                         className="absolute bottom-8 right-8 p-3 rounded-full bg-[#C44200] hover:bg-[#a33600] transition-colors"
+                        aria-label={`Explore ${destination.name}`}
                       >
                         <ArrowUpRight size={24} weight="bold" color="white" />
                       </Link>

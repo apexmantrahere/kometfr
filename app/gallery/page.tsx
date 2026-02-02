@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
+import GalleryPopup from "@/components/shared/GalleryPopup";
 
 type GalleryApiItem = {
   id: string;
@@ -10,11 +11,11 @@ type GalleryApiItem = {
   createdAt?: string;
 };
 
-
-
 export default function GalleryPage() {
   const [items, setItems] = useState<GalleryApiItem[] | null>(null);
   const [fetched, setFetched] = useState(false);
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [popupIndex, setPopupIndex] = useState(0);
 
   useEffect(() => {
     let mounted = true;
@@ -38,6 +39,25 @@ export default function GalleryPage() {
 
   const displayItems = items ?? [];
 
+  const mediaItems = displayItems.map((item) => ({
+    type: (item.media_type === "video" ? "video" : "image") as "image" | "video",
+    src: item.media_url,
+    alt: "Gallery",
+  }));
+
+  const openPopup = (index: number) => {
+    setPopupIndex(index);
+    setPopupOpen(true);
+  };
+
+  const onClose = useCallback(() => setPopupOpen(false), []);
+  const onNext = useCallback(() => {
+    setPopupIndex((i) => (i + 1) % mediaItems.length);
+  }, [mediaItems.length]);
+  const onPrev = useCallback(() => {
+    setPopupIndex((i) => (i - 1 + mediaItems.length) % mediaItems.length);
+  }, [mediaItems.length]);
+
   return (
     <div className="min-h-screen bg-white">
       <div className="py-10 md:py-24 pt-30 md:pt-50 px-4 md:px-8">
@@ -46,18 +66,20 @@ export default function GalleryPage() {
             <p className="text-center text-neutral-500 py-12">No gallery items yet.</p>
           ) : (
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-2">
-              {displayItems.map((item) => {
+              {displayItems.map((item, index) => {
                 const src = item.media_url;
                 const mediaType = item.media_type;
                 const key = item.id;
                 return (
-                  <div
+                  <button
                     key={key}
-                    className="aspect-square relative overflow-hidden rounded-[8px] group cursor-pointer"
+                    type="button"
+                    onClick={() => openPopup(index)}
+                    className="aspect-square relative overflow-hidden rounded-[8px] group cursor-pointer w-full border-0 p-0 bg-transparent text-left"
                   >
                     {mediaType === "video" ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <video src={src} className="object-cover w-full h-full" controls />
+                      <video src={src} className="object-cover w-full h-full" controls onClick={(e) => e.stopPropagation()} />
                     ) : src.startsWith("http") ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
@@ -74,13 +96,22 @@ export default function GalleryPage() {
                         unoptimized
                       />
                     )}
-                  </div>
+                  </button>
                 );
               })}
             </div>
           )}
         </div>
       </div>
+
+      <GalleryPopup
+        mediaItems={mediaItems}
+        isOpen={popupOpen}
+        currentIndex={popupIndex}
+        onClose={onClose}
+        onNext={onNext}
+        onPrev={onPrev}
+      />
     </div>
   );
 }
